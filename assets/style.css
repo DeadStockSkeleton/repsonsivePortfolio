@@ -102,3 +102,37 @@ input, select {
 }
 
 /*--------MY CODE------------*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.border{
+    border-width:2px !important;
+}
+
+.border:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    line-height:25px;
+}
+
+#index{
+    background-image: url("/assets/imgs/pexels-photo-160107.jpg");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    overflow: hidden;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #FF7E30;
+    text-decoration: none;
+}
