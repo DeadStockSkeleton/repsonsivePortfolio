@@ -104,7 +104,6 @@ input, select {
 /*--------MY CODE------------*/
 *{
     font-family: 'Montserrat', sans-serif;
-    transition: .3s;
 }
 
 .border{
