@@ -104,10 +104,12 @@ input, select {
 /*--------MY CODE------------*/
 *{
     font-family: 'Montserrat', sans-serif;
+    transition: .3s;
 }
 
 .border{
     border-width:2px !important;
+    cursor: pointer;
 }
 
 .border:hover{
@@ -129,10 +131,24 @@ p{
 }
 
 a{
-    color: white;
+    color: inherit;
+    cursor: pointer;
 }
 
 a:hover{
-    color: #FF7E30;
+    color: #30ffa9;
     text-decoration: none;
 }
+
+.active{
+    color: #7830ff;
+}
+
+.active:hover{
+    color: rgb(20, 173, 220);
+}
+
+span{
+    color: #7830ff;
+}
+
