@@ -102,52 +102,13 @@ input, select {
 }
 
 /*--------MY CODE------------*/
-*{
-    font-family: 'Montserrat', sans-serif;
+
+nav{
+    background: transparent;
 }
 
-.border{
-    border-width:2px !important;
-    cursor: pointer;
-}
+button{
+    outline: none;
 
-.border:hover{
-    background-color: white;
-    color: black;
-}
-
-p{
-    line-height:25px;
-}
-
-#index{
-    background-image: url("/assets/imgs/pexels-photo-160107.jpg");
-    background-size:     cover;                   
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    overflow: hidden;
-    background-color: black;
-}
-
-a{
-    color: inherit;
-    cursor: pointer;
-}
-
-a:hover{
-    color: #30ffa9;
-    text-decoration: none;
-}
-
-.active{
-    color: #7830ff;
-}
-
-.active:hover{
-    color: rgb(20, 173, 220);
-}
-
-span{
-    color: #7830ff;
 }
 

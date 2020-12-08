@@ -5,81 +5,73 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>I'yana Medlock's Portfolio</title>
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/icns/DSSKELETON-LOGO.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous”/>
         <meta name=" viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets/style.css">
 </head>
+<style>
+    @media only screen and (max-width: 600px) {
+        .myintro{
+            display: none;
+        }
+      }
+</style>
 
-<body class="pl-5 pr-5 bg-dark">
-    <!--Navigation Bar w/ links-->
-    <nav class="p-5 navbar text-white">
-        <h1 class="pl-5 mr-5">I'yana Medlock</h1>
-        <div class="col-md-6">
-            <ul class="d-flex">
-                <li class="mr-5 text-black">
-                    <a href="index.html">home</a>
-                </li>
-                <li class="mr-5 text-black">
-                    <a href="aboutMe.html">about me</a>
-                </li>
-                <li class="mr-5 text-black">
-                    <a class="active" href="contact.html">contact</a>
-                </li>
-                <li class="mr-5 text-black">
-                    <a class="border pt-2 pb-2 pl-4 pr-4 rounded" role="button"
-                        href="https://github.com/DeadStockSkeleton" target="_blank">github</a>
-                </li>
-            </ul>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark bg-parmary border-bottom border-secondary">
+        <a class="navbar-brand mb-0 h1 text-light" href="#index.html">I'yana Medlock</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav float-left">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    </nav><!--End of Navigation Bar-->
-
-    <!--Main content-->
-    <main class="d-flex">
-        <div class="col-xl-12">
-            <!--Contact Cards-->
-            <div class="card-group">
-                <div class="card bg-dark text-white">
-                    <img class="card-img-top" src="./assets/icns/github-icon.svg" alt="gitHub Icon">
+    </nav>
+    <div class="row no-gutters">
+            <div class=" pt-4  col-md-6">
+                <div class="card mx-auto w-75">
                     <div class="card-body">
-                        <h5 class="card-title">check out my github</h5>
-                        <div class="card-body border-top">
-                            <a class="active card-link" href="https://github.com/DeadStockSkeleton"
-                                target="_blank">github link</a>
+                      <h5 class="card-title">Contact</h5>
+                      <form>
+                        <div class="form-group">
+                          <label for="name">Full Name</label>
+                          <input type="text" class="form-control" placeholder="Full Name" id="name" aria-describedby="name">
                         </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-white">
-                    <img class="card-img-top" src="./assets/icns/linkedin-icon.svg" alt="linkedIn Icon">
-                    <div class="card-body">
-                        <h5 class="card-title">take a peak at my linkedIn</h5>
-                        <div class="card-body border-top">
-                            <a class="active card-link" href="https://www.linkedin.com/in/i-yana-medlock-93a0831b7"
-                                target="_blank">linkedIn link</a>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Email Address</label>
+                          <input type="email" class="form-control" placeholder="Email@address.com" id="exampleInputPassword1" required>
                         </div>
-                    </div>
-                </div>
-                <div class="card bg-dark text-white">
-                    <img class="card-img-top" src="./assets/icns/email-icon.svg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">or shoot me an email</h5>
-                        <div class="card-body border-top">
-                            <a class="active card-link" href="mailto:iyanamedlock@gmail.com" target="_blank">email
-                                link</a>
+                        <div class="form-group">
+                            <label for="validationTextarea">Textarea</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="type message here..." required></textarea>
                         </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                     </div>
-                </div>
-            </div>
-    </main>
-    </div>
-
-
-
-    <script src="./assets/script.js" async defer></script>
+                  </div>
+                  
+        </div>
+      </div>
+    
+    
 </body>
 
 </html>
